@@ -1,0 +1,161 @@
+[
+	{
+		"Id": "OneHandedSword",
+		"Name": "One-Handed Sword",
+		"Type": "Weapon",
+		"Price": 100000
+	},
+	{
+		"Id": "TwoHandedSword",
+		"Name": "Two-Handed Sword",
+		"Type": "Weapon",
+		"Price": 130000
+	},
+	{
+		"Id": "Bow",
+		"Name": "Bow",
+		"Type": "Weapon",
+		"Price": 90000
+	},
+	{
+		"Id": "Hammer",
+		"Name": "Hammer",
+		"Type": "Weapon",
+		"Price": 130000
+	},
+	{
+		"Id": "HeavyPlateArmor",
+		"Name": "Heavy Plate Armor",
+		"Type": "Armor",
+		"Price": 70000
+	},
+	{
+		"Id": "LightArmor",
+		"Name": "Light Armor",
+		"Type": "Armor",
+		"Price": 65000
+	},
+	{
+		"Id": "Robe",
+		"Name": "Robe",
+		"Type": "Armor",
+		"Price": 60000
+	},
+	{
+		"Id": "HealthPotion",
+		"Name": "Health Potion",
+		"Type": "Consumable",
+		"Price": 4000
+	},
+	{
+		"Id": "ManaPotion",
+		"Name": "Mana Potion",
+		"Type": "Consumable",
+		"Price": 5000
+	},
+	{
+		"Id": "Arrow",
+		"Name": "Arrow",
+		"Type": "Consumable",
+		"Price": 100
+	},
+	{
+		"Id": "PotionPack",
+		"Name": "Potion Pack",
+		"Type": "Pack",
+		"Price": 25000,
+		"Content": [
+			{
+				"ItemId": "ManaPotion",
+				"Amount": 3
+			},
+			{
+				"ItemId": "HealthPotion",
+				"Amount": 3
+			}
+		]
+	},
+	{
+		"Id": "ConsumableLootBox",
+		"Name": "Consumable Loot Box",
+		"Type": "LootBox",
+		"BoxType": "First",
+		"Price": 13000,
+		"AmountToDrop": [
+			{
+				"Value": 1,
+				"Weight": 50
+			},
+			{
+				"Value": 2,
+				"Weight": 30
+			},
+			{
+				"Value": 3,
+				"Weight": 10
+			}
+		],
+		"Content": [
+			{
+				"ItemId": "ManaPotion",
+				"Amount": 3,
+				"Weight": 10
+			},
+			{
+				"ItemId": "HealthPotion",
+				"Amount": 3,
+				"Weight": 10
+			},
+			{
+				"ItemId": "Arrow",
+				"Amount": 20,
+				"Weight": 10
+			}
+		]
+	},
+	{
+		"Id": "WeaponLootBox",
+		"Name": "Weapon Loot Box",
+		"Type": "LootBox",
+		"BoxType": "Second",
+		"Price": 130000,
+		"BasePriceForRandomContent": 100000,
+		"PriceFactor": 1.5,
+		"AmountToDrop": [
+			{
+				"Value": 1,
+				"Weight": 50
+			},
+			{
+				"Value": 2,
+				"Weight": 30
+			},
+			{
+				"Value": 3,
+				"Weight": 10
+			}
+		],
+		"Content": [
+			{
+				"ItemId": "OneHandedSword",
+				"Amount": 1,
+				"Weight": 10
+			},
+			{
+				"ItemId": "TwoHandedSword",
+				"Amount": 1,
+				"Weight": 10
+			},
+			{
+				"ItemId": "Bow",
+				"Amount": 1,
+				"Weight": 10
+			},
+			{
+				"ItemId": "Hammer",
+				"Amount": 1,
+				"Weight": 10
+			}
+		]
+	}
+]

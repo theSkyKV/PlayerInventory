@@ -1,0 +1,58 @@
+{
+	"Owner": "Trader",
+	"Cells": [
+		{
+			"ItemId": "OneHandedSword",
+			"Amount": 4
+		},
+		{
+			"ItemId": "TwoHandedSword",
+			"Amount": 3
+		},
+		{
+			"ItemId": "Bow",
+			"Amount": 3
+		},
+		{
+			"ItemId": "HeavyPlateArmor",
+			"Amount": 3
+		},
+		{
+			"ItemId": "LightArmor",
+			"Amount": 2
+		},
+		{
+			"ItemId": "Robe",
+			"Amount": 3
+		},
+		{
+			"ItemId": "HealthPotion",
+			"Amount": 18
+		},
+		{
+			"ItemId": "ManaPotion",
+			"Amount": 15
+		},
+		{
+			"ItemId": "Arrow",
+			"Amount": 100
+		},
+		{
+			"ItemId": "PotionPack",
+			"Amount": 8
+		},
+		{
+			"ItemId": "Hammer",
+			"Amount": 2
+		},
+		{
+			"ItemId": "ConsumableLootBox",
+			"Amount": 5
+		},
+		{
+			"ItemId": "WeaponLootBox",
+			"Amount": 5
+		}
+	],
+	"SilverAmount": 1000000
+}
